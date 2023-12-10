@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model = load_model('model_try.h5')
+model = load_model('D:\Dunia Perkuliahan\Semester 5\Bangkit\Model\model_tf.h5')
 
 # Define food categories
 data_path = "D:\Dunia Perkuliahan\Semester 5\Bangkit\Food_Image_Recognition\Dataset"
@@ -13,7 +13,7 @@ categories = sorted(os.listdir(os.path.join(data_path, "training")))  # Replace 
 
 def predict_food_size(image_path):
     img = cv2.imread(image_path)
-    img = cv2.resize(img, (128, 128))
+    img = cv2.resize(img, (256, 256))
     prediction = model.predict(np.expand_dims(img, axis=0))
     food_category = categories[np.argmax(prediction)]
 
