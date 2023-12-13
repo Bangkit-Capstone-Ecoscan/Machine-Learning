@@ -29,7 +29,13 @@ model = load_model('D:\Dunia Perkuliahan\Semester 5\Bangkit\Model\model_tf.h5')
 path_eval = "D:\Dunia Perkuliahan\Semester 5\Bangkit\Food_Image_Recognition\Dataset\evaluation"
 
 # code to open the image
+<<<<<<< HEAD
 img = PIL.Image.open("D:\Dunia Perkuliahan\Semester 5\Bangkit\Food_Image_Recognition\Test Model\\martabak.jpeg")
+=======
+
+img = PIL.Image.open("D:\Dunia Perkuliahan\Semester 5\Bangkit\Food_Image_Recognition\Test Model\\mi_kuah.jpg")
+
+>>>>>>> 5b2d621eb71fc320c88cbda039986a7f5f1af972
 # resizing the image to (256,256)
 img = img.resize((256, 256))
 # converting image to array
