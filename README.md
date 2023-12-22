@@ -1,8 +1,7 @@
 # Machine-Learning
-
-## ECO SCAN : Sustainable Shopping Assistans
 <a name="readme-top"></a>
 
+## ECO SCAN : Sustainable Shopping Assistans
 
 ## Installation 🔨
 Clone this repository
