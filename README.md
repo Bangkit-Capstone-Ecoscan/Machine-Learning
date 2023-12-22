@@ -22,7 +22,7 @@ This application can help users consider choosing foods that produce fewer emiss
 This project is mantained by:
 * [Stefaron Budhi Santosa](https://github.com/Stefaron)
 * [Nathanael Vito Kristianto](https://github.com/VitoKa29)
-* [Sidqi Averroes] (https://github.com/sidqiaverroes)
+* [Sidqi Averroes](https://github.com/sidqiaverroes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
